@@ -3,6 +3,7 @@ layout: post
 title:  "This is a test!!"
 date:   2022-01-03 20:02:43 +0100
 categories: jekyll update
+featured_image: featured-image.png
 ---
 This is a test. Bompibomp.
 
