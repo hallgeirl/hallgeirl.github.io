@@ -1,8 +1,11 @@
 ---
 title:  "Continuous deployment to Kubernetes in Azure DevOps with multi-stage pipelines"
 date:   2020-08-18 15:52
-categories: jekyll update
+categories: kubernetes devops
 featured_image: featured-image.png
+
+toc: true
+toc_icon: "cog"
 ---
 
 I really enjoy Azure DevOps for setting up my builds and releases. One feature, which really isn't that new (it's over a year old) is the ability to write both your build and release pipeline as code, using multi-stage pipelines and environments. It's only recently that I've started to get my hands dirty on this however, and it's wonderful. I adore Kubernetes as an app hosting platform as well, so combining these sounds just too juicy. 
