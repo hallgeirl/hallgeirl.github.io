@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "This is a test!!"
+date:   2022-01-03 20:02:43 +0100
+categories: jekyll update
+---
+This is a test. Bompibomp.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight csharp %}
+void Foobar()
+{
+    Test test;
+    return;
+}
+{% endhighlight %}
+
+Here's a link to some [some random bnlog][a-link].
+
+[a-link]: https://blog.hallgeir.org
