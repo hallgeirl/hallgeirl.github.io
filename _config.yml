@@ -73,6 +73,7 @@ baidu_site_verification  :
 # Social Sharing
 twitter:
   username               : &twitter "hallgeirl"
+
 og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles, used in _includes/seo.html
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -118,6 +119,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hallgeirl"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hallgeirl"
 
 
 # Reading Files
@@ -196,6 +200,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      classes: wide
   # _pages
   - scope:
       path: "_pages"
