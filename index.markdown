@@ -4,6 +4,8 @@
 
 list_title: ''
 title: ''
+layout: posts-full-content
+classes: wide
 ---
 
 

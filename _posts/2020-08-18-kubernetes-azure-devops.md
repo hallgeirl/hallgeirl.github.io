@@ -2,10 +2,8 @@
 title:  "Continuous deployment to Kubernetes in Azure DevOps with multi-stage pipelines"
 date:   2020-08-18 15:52
 categories: kubernetes devops
-featured_image: featured-image.png
 
 toc: true
-toc_icon: "cog"
 ---
 
 I really enjoy Azure DevOps for setting up my builds and releases. One feature, which really isn't that new (it's over a year old) is the ability to write both your build and release pipeline as code, using multi-stage pipelines and environments. It's only recently that I've started to get my hands dirty on this however, and it's wonderful. I adore Kubernetes as an app hosting platform as well, so combining these sounds just too juicy. 
@@ -77,6 +75,8 @@ After this stage is run, I have my image in my Azure Container Registry, and my 
 ## Defining the environment in Azure DevOps
 This is super easy. Go to your Azure DevOps project, and under Pipelines go to Environments. In my case, I chose to create an environment with a Kubernetes resource, which is essentially a service connection to a Kubernetes namespace. On the next page, it's easy if you use AKS for your Kubernetes needs. All your Azure subscriptions will be listed, and you just choose the cluster you want to connect to, and the namespace you want to connect to. After the environment you can refer to this environment in your Yaml pipeline definition.
 
+![Creating a new environment](/assets/images/2020-08-18-kubernetes-azure-devops/az-devops.png)
+
 ## Using your newly created environment 
 
 Now let's look at the Release to Dev stage. Notice that I've connected a variable group as well. This is the only way I've found to actually have unique **secret** variables per stage in a release pipeline. If they're not secret, it's probably easiest to include them in the pipeline yaml file itself.
@@ -117,4 +117,3 @@ I didn't go into the deepest and darkest details here at all, but I hope you may
 Feel free to reach out if you see an obvious mistake or if you have any comments!
 
 
-<img src="https://hallgeir.micro.blog/uploads/2020/ef1f20940b.png" width="600" height="179" alt="" />
