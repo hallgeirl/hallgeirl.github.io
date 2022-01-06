@@ -11,9 +11,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hallgeir's blog"
+title                    : "Hallgeir"
 title_separator          : "-"
-subtitle                 : "Some subtitle"
+subtitle                 : ""
 name                     : &name "Hallgeir" # &name is a YAML anchor which can be *referenced later
 description              : &description "Some description."
 url                      : https://github.hallgeir.org # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -97,7 +97,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/hallgeir.png"
-  bio              : "Something here."
+  bio              : ""
   location         : "Norway"
   links:
     - label: "Blog"
@@ -109,6 +109,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hallgeirl"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hallgeirl"
 
 
 # Site Footer
