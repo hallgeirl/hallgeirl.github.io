@@ -39,6 +39,7 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
+    repo:                : hallgeirl/hallgeirl.github.io
     repo_id              : "R_kgDOGnlRMg" # Shown during giscus setup at https://giscus.app
     category_name        : "Announcements" # Full text name of the category
     category_id          : "DIC_kwDOGnlRMs4CAk6g" # Shown during giscus setup at https://giscus.app
