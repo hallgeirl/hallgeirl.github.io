@@ -2,6 +2,8 @@
 title:  "Spring cleaning, coffee roaster and falling asteroids"
 date: 2021-03-22 08:38
 categories: gamedev coffee
+redirect_from:
+  - /2021/03/22/spring-cleaning-coffee.html
 ---
 
 I've finally gotten around to some "spring cleaning" on my domain, sites and repos. 

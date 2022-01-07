@@ -2,6 +2,8 @@
 title:  "Time to block those third-party tracking cookies"
 date:   2020-08-11 15:00
 categories: privacy
+redirect_from:
+  - /2020/08/11/time-to-block.html
 ---
 
 Ironically, my first "real" post on this blog won't be related to coding. But I figured it's quite relevant these days, and I wanted to share it, if for nothing else as a PSA.

@@ -2,6 +2,8 @@
 title:  "Creating a multi-tenant IdentityServer federation gateway"
 date: 2020-09-24 15:00
 categories: development
+redirect_from:
+  - /2020/09/24/creating-a-multitenant.html
 ---
 
 [IdentityServer](https://github.com/IdentityServer) is quite an awesome framework for creating your own OAUTH-based authentication server in .NET Core. At its core, its purpose is to provide OAUTH endpoints to allow clients request access tokens to then call APIs. IdentityServer also [supports being used as a federation gateway](https://docs.identityserver.io/en/dev/topics/federation_gateway.html), by utilizing the built-in authentication system in .NET Core. 

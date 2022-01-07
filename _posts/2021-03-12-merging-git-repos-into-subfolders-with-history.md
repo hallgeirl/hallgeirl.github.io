@@ -2,6 +2,8 @@
 title:  "Merging git repos into subfolders with history"
 date: 2021-03-12 15:00
 categories: git
+redirect_from:
+  - /2021/03/12/merging-git-repos.html
 ---
 
 Did you know you can merge a git repo into a subfolder of another, while keeping the commit history of the repo you're merging in? It was surprisingly simple. Here's how you do it:

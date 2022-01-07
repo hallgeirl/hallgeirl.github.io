@@ -2,6 +2,8 @@
 title:  "Some tips when migrating your project to .NET Core"
 date: 2020-08-25 10:54
 categories: dotnet
+redirect_from:
+  - /2020/08/25/some-tips-when.html
 ---
 
 Sometimes, moving your project from .NET Framework to .NET Core can be super easy, and sometimes it can be a daunting task. There's several factors that can complicate matters:

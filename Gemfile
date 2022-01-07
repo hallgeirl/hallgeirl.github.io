@@ -37,3 +37,5 @@ gem "webrick", "~> 1.7"
 gem "sorted_set", "~> 1.0"
 
 gem 'jemoji'
+
+gem 'jekyll-redirect-from'

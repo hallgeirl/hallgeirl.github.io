@@ -2,6 +2,8 @@
 title:  "Digging up my old C++ game project"
 date: 2020-09-20 11:08
 categories: cpp gamedev
+redirect_from:
+  - /2020/09/20/i-dug-up.html
 ---
 
 
