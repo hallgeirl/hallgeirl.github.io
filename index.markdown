@@ -8,9 +8,3 @@ layout: posts-full-content
 classes: wide
 ---
 
-
-# Something random
-
-Welcome to this demo blog!
-
-Foo faa fum! Test of _GitHub Pages_ and _Jekyll_.
